@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/auto.service/auto.service/pom.xml" />
         <option value="$PROJECT_DIR$/moto.service/moto.service/pom.xml" />
         <option value="$PROJECT_DIR$/user.service/user.service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-service/config-service/pom.xml" />
       </list>
     </option>
   </component>
