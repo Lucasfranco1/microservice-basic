@@ -26,7 +26,7 @@ public class UserService {
 
 
     public List<Motorcycle>getMotorcycles(Integer userId){
-        List<Motorcycle>motorcycles=restTemplate.getForObject("http://localhost:8003/motorcycle/user/"+ userId, List.class);
+        List<Motorcycle>motorcycles=restTemplate.getForObject("http://motorcycle-service/motorcycle/user/"+ userId, List.class);
         return motorcycles;
     }
 
