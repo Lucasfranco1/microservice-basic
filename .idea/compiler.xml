@@ -10,12 +10,14 @@
         <module name="eureka-service" />
         <module name="user.service" />
         <module name="config-service" />
+        <module name="gateway-service" />
         <module name="service(com.bicycle)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-service" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
       <module name="service" target="1.8" />
       <module name="service(com.bicycle)" target="1.8" />
       <module name="user.service" target="1.8" />
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-service" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service(com.bicycle)" options="-parameters" />
       <module name="user.service" options="-parameters" />
